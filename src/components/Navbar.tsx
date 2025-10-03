@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import imageButton from '/src/assets/Logo_V5.png'
 import './Navbar.css'
 
