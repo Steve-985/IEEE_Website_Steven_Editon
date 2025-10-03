@@ -2,7 +2,7 @@ import Navbar from './components/Navbar.tsx'
 import './App.css'
 
 {/* Should probably change how image asset imports work soon */}
-import ieeeLogo from '/src/assets/Logo_V5.png'
+import ieeeLogo from './src/assets/Logo_V5.png'
 import calendarIcon from './assets/calendar-days_9795331.svg'
 import peopleIcon from './assets/people-group_18556819.svg'
 import capIcon from './assets/graduation-cap_3914110.svg'
@@ -14,7 +14,7 @@ import stevenHere from './assets/IMG_2761.jpg'
 function App(){
   return(
     <>
-      {/* Background shit */}
+      {/* Background layer */}
       <div className='background'/>
 
       {/* Content overlay */}

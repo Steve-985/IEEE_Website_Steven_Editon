@@ -139,7 +139,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('src/assets/IEEE_splash_V2.png');
+  background-image: url('./assets/IEEE_splash_V2.png');
   background-size: cover;
   background-position: center;
   z-index: -1; /* Moves the layer back */
