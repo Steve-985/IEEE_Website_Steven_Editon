@@ -1,0 +1,55 @@
+.navbar{
+  border-radius: 0.5rem;
+  background-color: #003543aa;
+  backdrop-filter: blur(8px);
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+/* DO NOT TOUCH! THIS IS PROBABLY IMPORTANT! */
+.bazinga{
+  height: 3rem;
+  position: absolute;
+  top: 0.25rem;
+}
+
+.nav-menu{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+}
+
+.nav-link{
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+  font-weight: 700;
+}
+.nav-link:hover{
+  color: #00a2fa;
+}
+
+.bar{
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+  transition: 0.3s;
+}
